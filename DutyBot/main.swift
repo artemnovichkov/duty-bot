@@ -9,6 +9,6 @@
 import Foundation
 import SlackKit
 
-let dutyBot = DutyBot(token: "SLACK_API_TOKEN")
+let dutyBot = DutyBot(token: "1311735748:AAGtBeKbDlg5RsVrRhV36TAENexdx0QiARY")
 dutyBot.client.connect()
 NSRunLoop.mainRunLoop().run()
